@@ -2,6 +2,7 @@
 
 int mainv(void)
 {
-	char string[] = "Programming is like building a multilingual puzzle \n";
-	puts(Mystr); return 0;
+	char String[] = "Programming is like building a multilingual puzzle \n";
+	puts(String);
+       	return 0;
 }
