@@ -13,8 +13,11 @@ if (alphabet == 'e' || alphabet == 'q')
 {
 continue;
 }
+else
+{
 putchar(alphabet);
 alphabet++;
+}
 }
 putchar('\n');
 return (0);
