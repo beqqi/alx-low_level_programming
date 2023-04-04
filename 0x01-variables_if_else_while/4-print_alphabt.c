@@ -6,19 +6,14 @@
  */
 int main(void)
 {
-char alphabet = 'a';
-while (alphabet <= 'z')
+char start, e, q;
+e = 'e';
+q = 'q';
+for (start = 'a'; start <= 'z'; start++)
 {
-if (alphabet == 'e' || alphabet == 'q')
-{
-continue;
-}
-else
-{
-putchar(alphabet);
-alphabet++;
+if (start != e && start != q)
+putchar(start);
 }
 putchar('\n');
-}
 return (0);
 }
